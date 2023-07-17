@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.jamal.nsangiss.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/academics"
+        android:name="com.jamal.nsangiss.AcademicsFragment"
+        android:label="Academics"
+        tools:layout="@layout/fragment_academics" />
+    <fragment
+        android:id="@+id/about_Us"
+        android:name="com.jamal.nsangiss.About_UsFragment"
+        android:label="About_Us"
+        tools:layout="@layout/fragment_about__us" />
+    <fragment
+        android:id="@+id/e_Learning"
+        android:name="com.jamal.nsangiss.E_LearningFragment"
+        android:label="E_Learning"
+        tools:layout="@layout/fragment_e__learning" />
+    <fragment
+        android:id="@+id/activities"
+        android:name="com.jamal.nsangiss.ActivitiesFragment"
+        android:label="Activities"
+        tools:layout="@layout/fragment_activities" />
+    <fragment
+        android:id="@+id/services"
+        android:name="com.jamal.nsangiss.ServicesFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.jamal.nsangiss.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/contact_Us"
+        android:name="com.jamal.nsangiss.Contact_UsFragment"
+        android:label="Contact_Us"
+        tools:layout="@layout/fragment_contact__us" />
+</navigation>

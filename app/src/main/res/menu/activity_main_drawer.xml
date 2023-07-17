@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+   <item android:title="Primary">
+       <menu>
+           <item android:title="E_Learning"
+               android:id="@+id/e_Learning" />
+           <item android:title="Activities"
+               android:id="@+id/activities"/>
+           <item android:title="Services"
+               android:id="@+id/services"/>
+           <item android:title="Gallery"
+               android:id="@+id/gallery"/>
+           <item android:title="Contact_Us"
+               android:id="@+id/contact_Us"/>
+       </menu>
+   </item>
+</menu>

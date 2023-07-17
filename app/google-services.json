@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962555949183",
+    "project_id": "nsangi-ss",
+    "storage_bucket": "nsangi-ss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962555949183:android:f56d95cf7667c41a294f4a",
+        "android_client_info": {
+          "package_name": "com.jamal.nsangiss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962555949183-g0q9k69oual5uilgs4kqf5dpiu2k9979.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdv19quV0tgdntSOrVnb80x2IN08Jigl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962555949183-g0q9k69oual5uilgs4kqf5dpiu2k9979.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

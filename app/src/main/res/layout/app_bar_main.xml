@@ -19,10 +19,6 @@
             app:titleTextColor="@color/white1"
             app:subtitleTextAppearance="@color/Red"
             app:popupTheme="@style/Theme.NsangiSS.PopupOverlay">
-            <ImageView android:layout_gravity="center"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/nsangi"/>
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -37,6 +33,8 @@
         app:itemPaddingBottom="15dp"
         app:menu="@menu/bottom_nav_drawer"
         android:layout_gravity="bottom"
+        app:itemIconTint="@color/white1"
+        android:clickable="true"
         app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
         app:elevation="12dp"
         android:id="@+id/bottom_nav" />

@@ -1,6 +1,8 @@
 package com.jamal.nsangiss
 
+import android.app.Dialog
 import android.content.Intent
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -41,7 +43,10 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.home,R.id.academics,R.id.about_Us,R.id.e_Learning,R.id.activities,R.id.services,R.id.gallery,R.id.contact_Us
+                R.id.home,R.id.academics,R.id.about_Us,R.id.e_Learning,R.id.activities,R.id.services,R.id.gallery,R.id.contact_Us,
+                R.id.sports,R.id.dance,R.id.counselling,R.id.department,R.id.spiritual,R.id.director,R.id.admissions,
+                R.id.subjects,R.id.administrators,R.id.association,R.id.alumini
+
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

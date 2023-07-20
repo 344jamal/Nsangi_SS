@@ -1,8 +1,5 @@
 package com.jamal.nsangiss
 
-import android.app.AlertDialog
-import android.app.Dialog
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -12,8 +9,7 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 
-
-class AcademicsFragment : Fragment() {
+class AdministratorFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,24 +21,24 @@ class AcademicsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_academics, container, false)
+        return inflater.inflate(R.layout.fragment_administrator, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val web_academics:WebView = view.findViewById(R.id.web_academics)
-        object : WebViewClient(){
+        val web_administrators:WebView = view.findViewById(R.id.web_administrators)
+        web_administrators.webViewClient = object : WebViewClient(){
             override fun shouldOverrideUrlLoading(
                 view: WebView?,
-                url: String
+                url:String
             ): Boolean {
                 view?.loadUrl(url)
                 return true
             }
-        }.also { web_academics.webViewClient = it }
-        web_academics.loadUrl("https://nsangisecondaryschool.com/academics.html")
-        web_academics.settings.javaScriptEnabled = true
-        web_academics.settings.allowContentAccess = true
-        web_academics.settings.useWideViewPort = true
-        web_academics.settings.domStorageEnabled = true
+        }
+        web_administrators.loadUrl("https://nsangisecondaryschool.com/admin.html")
+        web_administrators.settings.javaScriptEnabled = true
+        web_administrators.settings.allowContentAccess = true
+        web_administrators.settings.useWideViewPort = true
+        web_administrators.settings.domStorageEnabled = true
     }
 }

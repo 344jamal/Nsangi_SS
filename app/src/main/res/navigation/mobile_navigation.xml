@@ -46,4 +46,59 @@
         android:name="com.jamal.nsangiss.Contact_UsFragment"
         android:label="Contact_Us"
         tools:layout="@layout/fragment_contact__us" />
+    <fragment
+        android:id="@+id/sports"
+        android:name="com.jamal.nsangiss.GamesFragment"
+        android:label="Games and Sports"
+        tools:layout="@layout/fragment_games" />
+    <fragment
+        android:id="@+id/dance"
+        android:name="com.jamal.nsangiss.DramaFragment"
+        android:label="Music Dance and Drama"
+        tools:layout="@layout/fragment_drama" />
+    <fragment
+        android:id="@+id/counselling"
+        android:name="com.jamal.nsangiss.CounsellingFragment"
+        android:label="Counselling and Guidance"
+        tools:layout="@layout/fragment_counselling" />
+    <fragment
+        android:id="@+id/department"
+        android:name="com.jamal.nsangiss.WelfareFragment"
+        android:label="Welfare Department"
+        tools:layout="@layout/fragment_welfare" />
+    <fragment
+        android:id="@+id/spiritual"
+        android:name="com.jamal.nsangiss.SpiritualFragment"
+        android:label="Spiritual Services"
+        tools:layout="@layout/fragment_spiritual" />
+    <fragment
+        android:id="@+id/director"
+        android:name="com.jamal.nsangiss.DiractorFragment"
+        android:label="Director of Studies"
+        tools:layout="@layout/fragment_diractor" />
+    <fragment
+        android:id="@+id/admissions"
+        android:name="com.jamal.nsangiss.AdmissionsFragment"
+        android:label="Admissions"
+        tools:layout="@layout/fragment_admissions" />
+    <fragment
+        android:id="@+id/subjects"
+        android:name="com.jamal.nsangiss.SubjectsFragment"
+        android:label="Department of Subjects"
+        tools:layout="@layout/fragment_subjects" />
+    <fragment
+        android:id="@+id/administrators"
+        android:name="com.jamal.nsangiss.AdministratorFragment"
+        android:label="Administrators"
+        tools:layout="@layout/fragment_administrator" />
+    <fragment
+        android:id="@+id/association"
+        android:name="com.jamal.nsangiss.AssociationFragment"
+        android:label="Associations"
+        tools:layout="@layout/fragment_association" />
+    <fragment
+        android:id="@+id/alumini"
+        android:name="com.jamal.nsangiss.AlumniFragment"
+        android:label="Alumni"
+        tools:layout="@layout/fragment_alumni" />
 </navigation>

@@ -1,6 +1,8 @@
 package com.jamal.nsangiss
 
+import android.app.Dialog
 import android.content.Intent
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
@@ -42,11 +44,18 @@ class LoginActivity : AppCompatActivity() {
             emailInput.isEnabled = false
             passwordInput.isEnabled = false
 
+            val dialog = Dialog(this)
+            dialog.setContentView(R.layout.dialog_loading)
+            if (dialog.window != null){
+                dialog!!.window!!.setBackgroundDrawable(ColorDrawable(0))
+            }
+            dialog.show()
+
             val email = emailInput.text.toString().trim()
             val password = passwordInput.text.toString().trim()
             auth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
                 if (it.isSuccessful){
-                    startActivity(Intent(this, splashActivity::class.java))
+                    startActivity(Intent(this, MainActivity::class.java))
                     finish()
                 }else{
                     Toast.makeText(this, it.exception.toString(),Toast.LENGTH_LONG).show()

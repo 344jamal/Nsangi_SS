@@ -2,18 +2,72 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-   <item android:title="Primary">
+   <item android:title="Primary" >
        <menu>
            <item android:title="E_Learning"
+               android:icon="@drawable/learning"
                android:id="@+id/e_Learning" />
-           <item android:title="Activities"
-               android:id="@+id/activities"/>
-           <item android:title="Services"
-               android:id="@+id/services"/>
            <item android:title="Gallery"
+               android:icon="@drawable/gallery"
                android:id="@+id/gallery"/>
            <item android:title="Contact_Us"
+               android:icon="@drawable/contact"
                android:id="@+id/contact_Us"/>
+           <item android:title="Activities"
+               android:icon="@drawable/check"
+               android:id="@+id/activities"/>
+           <item android:title="Services"
+               android:icon="@drawable/services"
+               android:id="@+id/services"/>
        </menu>
    </item>
+    <item android:title="Other Activities">
+        <menu>
+            <item android:title="Games and Sports"
+                android:icon="@drawable/sports"
+                android:id="@+id/sports"/>
+            <item android:title="Music Dance and Drama"
+                android:icon="@drawable/dance"
+                android:id="@+id/dance"/>
+            <item android:title="Counselling and Guidance"
+                android:icon="@drawable/counseling"
+                android:id="@+id/counselling"/>
+        </menu>
+    </item>
+    <item android:title="Other Services">
+        <menu>
+            <item android:title="Welfare Department"
+                android:icon="@drawable/welfare"
+                android:id="@+id/department"/>
+            <item android:title="Spiritual Services"
+                android:icon="@drawable/spiritual"
+                android:id="@+id/spiritual"/>
+        </menu>
+    </item>
+    <item android:title="Other Academic Departments">
+        <menu>
+            <item android:title="Director of Studies"
+                android:icon="@drawable/director"
+                android:id="@+id/director"/>
+            <item android:title="Admissions"
+                android:icon="@drawable/admission"
+                android:id="@+id/admissions"/>
+            <item android:title="Department and Subjects"
+                android:icon="@drawable/department"
+                android:id="@+id/subjects"/>
+        </menu>
+    </item>
+    <item android:title="More About Us">
+        <menu>
+            <item android:title="Administrators"
+                android:icon="@drawable/adminstrator"
+                android:id="@+id/administrators"/>
+            <item android:title="Associations"
+                android:icon="@drawable/association"
+                android:id="@+id/association"/>
+            <item android:title="Alumni"
+                android:icon="@drawable/alumini"
+                android:id="@+id/alumini"/>
+        </menu>
+    </item>
 </menu>

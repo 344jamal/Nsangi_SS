@@ -23,6 +23,9 @@
         android:background="@color/Red"
         app:itemTextColor="@color/white1"
         android:contextClickable="true"
+        android:scrollbars="vertical"
+        android:overScrollMode="never"
+        app:itemIconTint="@color/white1"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>
